@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'lato', sans-serif;
+    color: #fff;
+    background-color: #222;
+  }
+  
+  a {
+    color: #fcfcfc;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navbar */
+
+  .navbar> nav {
+    margin-left: -550px;
+  }
+  .navbar h1{
+    color: rgb(243, 227, 5);
+    display: flex;
+    font-size: 15px;
+    justify-content:left;
+  }
+  
+.fa-solid,
+.fas {
+  font-weight:900;
+  color: #575656;
+}
+
+ .logot {
+    width: 200px;
+     }
+
+  .navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #020202;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .auth-buttons .btn {
+    background: #222;
+    border: 1px solid #222;
+    padding: 5px 10px;
+    color: #fff;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: space-between;
+  }
+
+  .auth-buttons .lupa {
+    background: #000000;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    color: #fff;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: space-between;
+  }
+  
+  .auth-buttons .btn.primary {
+    background-color: #222;
+    color: #ffffff;
+    font-size: 20px;
+
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+  }
+  
+  .b {
+    color: #fff;
+  }
+
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .white-text {
+    justify-content: right;
+    color: white;
+    font-size: 1rem;
+    }
+  
+  .blue-text {
+   justify-content: right;
+    font-size: 1rem;
+    color: #04b8ff;
+    text-align: left;
+  }
+
+
+  .hero-text h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: left;
+    margin-left: 90px;
+    margin-right: 30px;
+  }
+
+   
+  .hero-text p {
+    margin: 20px 0;
+    font-size: 2.5rem;
+    margin-left: 90px;
+    margin-right: 150px;
+  }
+  
+  .hero-buttons .btn {
+    margin-top: 25px;
+    margin-left: 95px;
+    padding:  20px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .hero-buttons .btn.primary {
+    background-color: #00d12d;
+    color: #000;
+  }
+  
+  .hero-buttons .btn {
+    background: black;
+    border: 1px solid #080808;
+    color: #fff;
+  }
+  
+
+  /* Hero Image */
+  .hero-image img {
+    display: flex;
+    max-width: 90%;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    background-color: #111;
+    text-align: center;
+  }
+  
+  .footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+
+ .columna1 {
+    padding: 10px;
+    border: 1px solid #fcfcfc;
+  }
+
+  .columna2 {
+    padding: 10px;
+    border: 1px solid #fcfcfc;
+  }
+
+  .columna3 {
+    padding: 10px;
+    border: 1px solid #fcfcfc;
+  }
+
+  .columna4 {
+    padding: 10px;
+    border: 1px solid #fcfcfc;
+  }
+  
+  
